@@ -10,7 +10,7 @@
 1. Download this package into your harddrive 
    Ex: D:/DotNetCoreTemplates
 2. Open command prompt and go to the template folder that you want to install 
-   Ex: If you want to setup your project with N-Layer architecture go to ~/NLayer/FortBase (D:/DotNetCoreTemplates/NLayer/FortBase)
+   Ex: If you want to setup your project with N-Layer architecture go to ~/FortBase/NLayer/FortBase (D:/DotNetCoreTemplates/NLayer/FortBase)
 3. Then run the command 
 ```
 dotnet new -i D:\DotNetCoreTemplates\NLayer\FortBase
