@@ -1,11 +1,11 @@
 # FortBase
 .Net Core startup project with already implemented patterns
 
-##Prerequisites
+## Prerequisites
 1. dotnet new cli beeing installed 
 2. .Net Core SDK 3.0
 
-##Installation
+## Installation
 
 1. Download this package into your harddrive 
    Ex: D:/DotNetCoreTemplates
