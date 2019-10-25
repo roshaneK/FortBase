@@ -2,8 +2,9 @@
 .Net Core startup project with already implemented patterns
 
 ## Prerequisites
-1. dotnet new cli beeing installed 
+1. dotnet cli 
 2. .Net Core SDK 3.0
+3. SQL Server (For SQL Server enabled templates)
 
 ## Installation
 
@@ -21,3 +22,16 @@ dotnet new -i D:\DotNetCoreTemplates\FortBase\NLayer\FortBase
 ```
 dotnet new fortbase-api-nlayer -n {YOUR-PROJECT-NAME} --force
 ```
+
+## Uninstallation 
+
+When uninstalling a template, you must uninstall it with the absolute file path. 
+
+1. Open the command prompt 
+2. Run the uninstall command 
+```
+dotnet new -u D:\Development\PublicRepos\FortBase\NLayer
+```
+
+TIP: You can use dotnet new -u command to list all the templates that you need to uninstall. 
+This will show all the templates with the uninstall command.
