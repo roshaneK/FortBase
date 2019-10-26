@@ -1,11 +1,11 @@
 {
   "author": "Roshane Kekuluthotuwage",
-  "classifications": [ "Web API", "FortBase Web API with N-Layer" ],
-  "name": "New FortBase Web API with Entity Framework : N-Layer Architecture",
+  "classifications": [ "Web API", "Entity Framework Core - Code First", "N-Layer" ],
+  "name": "FortBase Web API with Entity Framework : N-Layer Architecture",
   "tags": {
     "language": "C#"
   },
   "identity": "roshaneK.FortBase",
-  "shortName": "fortbase-api-nlayer",
+  "shortName": "fortbase-api-ef-nlayer",
   "sourceName": "FortBase"
 }
