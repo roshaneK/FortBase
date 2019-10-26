@@ -44,3 +44,16 @@ Ex: If you want to start your development in D:/Developments then run following 
 ```
 dotnet new fortbase-api-nlayer -n {YOUR-PROJECT-NAME} --force
 ```
+
+### For SQL Server DB Enabled Templates:
+
+1. Go to the appsettings.json in {PROJECT-NAME}.API 
+2. Check the ConnectionString and create a database in your SQL Server with the same name of the database name in the ConnectionString.
+
+Example
+```
+"ConnectionString": {
+    "MyCartDb": "Server=[Your-Server-Name];Database=MyCartDB;Trusted_Connection=True;"
+  },
+```
+In the above connection string, the database name is MyCartDB. So create a new database called MyCartDB in your SQL Server instance. 
