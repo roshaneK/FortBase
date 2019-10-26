@@ -36,7 +36,7 @@ dotnet new -u D:\DotNetCoreTemplates\FortBase\NLayer
 TIP: You can use dotnet new -u command to list all the templates that you need to uninstall. 
 This will show all the templates with the uninstall command.
 
-## Use a template to 
+## Template Usage
 
 To start a project with this template use command within the folder where you want to create your project. 
 Ex: If you want to start your development in D:/Developments then run following command 
