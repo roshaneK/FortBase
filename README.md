@@ -57,3 +57,10 @@ Example
   },
 ```
 In the above connection string, the database name is MyCartDB. So create a new database called MyCartDB in your SQL Server instance. 
+
+3. Set your SQL Server name in the ConnectionString by replacing the '[Your-Server-Name]' string. 
+4. Then, open the NuGet Package Manager Console 
+5. Run database migration command: 
+```
+Update-Database
+```
