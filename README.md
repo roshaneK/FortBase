@@ -19,12 +19,7 @@ Example:
 dotnet new -i D:\DotNetCoreTemplates\FortBase\NLayer\FortBase
 ```
 4. This will install the FortBase N-Layer template to your dotnet new templates
-5. To start a project with this template use command within the folder where you want to create your project. 
-   Ex: If you want to start your development in D:/Developments then run following command 
-   
-```
-dotnet new fortbase-api-nlayer -n {YOUR-PROJECT-NAME} --force
-```
+
 
 ## Uninstallation 
 
@@ -40,3 +35,12 @@ dotnet new -u D:\DotNetCoreTemplates\FortBase\NLayer
 
 TIP: You can use dotnet new -u command to list all the templates that you need to uninstall. 
 This will show all the templates with the uninstall command.
+
+## Use a template to 
+
+To start a project with this template use command within the folder where you want to create your project. 
+Ex: If you want to start your development in D:/Developments then run following command 
+   
+```
+dotnet new fortbase-api-nlayer -n {YOUR-PROJECT-NAME} --force
+```
