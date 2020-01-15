@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortBase.Service.Contracts"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortBase.Service.Models", "FortBase.Service.Models\FortBase.Service.Models.csproj", "{96A65B8E-7028-449E-8FBE-79506A2CA9F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FortBase.Common", "FortBase.Common\FortBase.Common.csproj", "{78774530-5655-48C4-B763-F8235A0ACC3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{96A65B8E-7028-449E-8FBE-79506A2CA9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A65B8E-7028-449E-8FBE-79506A2CA9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A65B8E-7028-449E-8FBE-79506A2CA9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78774530-5655-48C4-B763-F8235A0ACC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78774530-5655-48C4-B763-F8235A0ACC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78774530-5655-48C4-B763-F8235A0ACC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78774530-5655-48C4-B763-F8235A0ACC3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
