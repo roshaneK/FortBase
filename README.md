@@ -39,7 +39,7 @@ This will show all the templates with the uninstall command.
 ## Template Usage
 
 To start a project with this template use command within the folder where you want to create your project. 
-Ex: If you want to start your development in D:/Developments then run following command 
+Ex: If you want to start your development in D:/Developments/MyNewFortBase then run following command 
    
 ```
 dotnet new fortbase-api-nlayer -n {YOUR-PROJECT-NAME} --force
