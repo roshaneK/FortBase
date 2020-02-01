@@ -64,3 +64,6 @@ In the above connection string, the database name is MyCartDB. So create a new d
 ```
 Update-Database
 ```
+### Setup Startup Project:
+
+Sometimes whenn you create a new project using FortBase and open in the Visual Studio to do modification, startup project might get set to a class library. So please set  Web or API project as the startup project.
