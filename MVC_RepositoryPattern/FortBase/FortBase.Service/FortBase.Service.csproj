@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FortBase.Repository.Contracts\FortBase.Repository.Contracts.csproj" />
+    <ProjectReference Include="..\FortBase.Service.Contracts\FortBase.Service.Contracts.csproj" />
+    <ProjectReference Include="..\FortBase.Service.Models\FortBase.Service.Models.csproj" />
+  </ItemGroup>
+
+</Project>

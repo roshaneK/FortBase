@@ -1,0 +1,11 @@
+{
+  "author": "Roshane Kekuluthotuwage",
+  "classifications": [ "MVC", "Repository Pattern", "EF" ],
+  "name": "FortBase MVC App : With Repository Pattern and Entity Framework",
+  "tags": {
+    "language": "C#"
+  },
+  "identity": "roshaneK.FortBase.mvc-repo-pattern",
+  "shortName": "fortbase-mvc-repo-pattern",
+  "sourceName": "FortBase"
+}

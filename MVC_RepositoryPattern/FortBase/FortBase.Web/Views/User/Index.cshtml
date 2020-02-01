@@ -1,0 +1,51 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+    <link rel="stylesheet" type="text/css" href="~/css/user_manager.css">
+    <script src="~/js/user_manager.js"></script>
+
+<h1>User Manager</h1>
+
+<div>
+    <div class="container2">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <labe>No of users:</labe>
+                </div>
+                <div class="col-75">
+                    <label id="lblNoOfUsers"></label>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<br />
+<div>
+    <div class="container2">
+        <form>
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+            </div>
+            <div class="row">
+                <button class="btnSave" onclick="saveUser(); return false;">Save User</button>
+            </div>
+        </form>
+    </div>
+</div>
+

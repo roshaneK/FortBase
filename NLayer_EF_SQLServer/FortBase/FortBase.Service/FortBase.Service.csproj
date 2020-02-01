@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FortBase.Common\FortBase.Common.csproj" />
+    <ProjectReference Include="..\FortBase.Data\FortBase.Data.csproj" />
+    <ProjectReference Include="..\FortBase.Model\FortBase.Model.csproj" />
+  </ItemGroup>
+
+</Project>

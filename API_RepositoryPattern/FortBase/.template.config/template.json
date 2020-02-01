@@ -1,0 +1,11 @@
+{
+  "author": "Roshane Kekuluthotuwage",
+  "classifications": [ "Web API", "Repository Pattern", "EF" ],
+  "name": "FortBase Web API : With Repository Pattern and Entity Framework",
+  "tags": {
+    "language": "C#"
+  },
+  "identity": "roshaneK.FortBase.api-repo-pattern",
+  "shortName": "fortbase-api-repo-pattern",
+  "sourceName": "FortBase"
+}
