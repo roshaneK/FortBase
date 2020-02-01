@@ -1,4 +1,8 @@
 ﻿$(document).ready(function () {
+    getUserCount();
+});
+
+function getUserCount() {
     $.ajax({
         type: "GET",
         url: "/api/User/GetUsers",
@@ -9,16 +13,15 @@
                 $('#lblNoOfUsers').text(data.result.length);
             }
             console.log(data);
-        }, //End of AJAX Success function  
-
+        }, 
         failure: function (data) {
             alert(data.responseText);
-        }, //End of AJAX failure function  
+        }, 
         error: function (data) {
             alert(data.responseText);
-        } //End of AJAX error function  
-    });   
-});
+        } 
+    }); 
+}
 
 function saveUser() {
     var fName = $('#fname').val();
@@ -36,18 +39,25 @@ function saveUser() {
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             data: JSON.stringify(user),
-            success: function(data) {
+            success: function (data) {
                 if (data !== null && data.result !== null) {
                     $('#lblNoOfUsers').text(data.result.length);
                 }
-                console.log(data);
-            }, //End of AJAX Success function  
+                getUserCount();
+                clearFeilds();
+                console.log(data); 
+            },
             failure: function (data) {
                 alert(data.responseText);
-            }, //End of AJAX failure function  
+            },
             error: function (data) {
                 alert(data.responseText);
-            } //End of AJAX error function  
+            }
         });  
     }
+}
+
+function clearFeilds() {
+    $('#fname').val('');
+    $('#lname').val('');
 }
